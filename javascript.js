@@ -46,9 +46,26 @@ function playRound() {
 }
 
 playRound();
+alert(`Player Score = ${humanScore} | Computer Score = ${computerScore}`);
 playRound();
+alert(`Player Score = ${humanScore} | Computer Score = ${computerScore}`);
 playRound();
+alert(`Player Score = ${humanScore} | Computer Score = ${computerScore}`);
 playRound();
+alert(`Player Score = ${humanScore} | Computer Score = ${computerScore}`);
 playRound();
+alert(`Player Score = ${humanScore} | Computer Score = ${computerScore}`);
+
+if (humanScore > computerScore) {
+    alert('You win!');
+} else if (humanScore == computerScore){
+    alert('Draw!');
+} else {
+    alert('You Lose!');
+}
+
+console.log(`player score: ${humanScore}`);
+console.log(`computer score: ${computerScore}`);
+
 }
 
